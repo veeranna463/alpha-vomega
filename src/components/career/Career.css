@@ -1,0 +1,125 @@
+/* .career {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
+  color: #010101;
+}
+
+.career h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #080909;
+}
+
+.career p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.job-listings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.job-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+  padding: 30px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.job-card h3 {
+  margin-bottom: 10px;
+  color: #041014;
+}
+
+.job-card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.apply-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #00c3ff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.apply-btn:hover {
+  background: #0099cc;
+}  */
+
+.career {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.career h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #e0d9d9;
+}
+
+.career p {
+  font-size: 1.1rem;
+  color: #d3caca;
+  margin-bottom: 50px;
+}
+
+.job-listings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.job-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 30px 20px;
+  text-align: left;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+}
+
+.job-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.job-card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.apply-btn {
+  display: inline-block;
+  background: #0066ff;
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.apply-btn:hover {
+  background: #004ecc;
+  transform: translateY(-2px);
+}

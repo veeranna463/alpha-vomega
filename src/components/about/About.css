@@ -1,0 +1,72 @@
+/* /* .about {
+  padding: 80px 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  max-width: 900px;
+  margin: 40px auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #ddd;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto;
+} */
+
+
+/* About.css */
+/* About.css */
+
+.about {
+  padding: 4rem 2rem;
+  text-align: center;
+
+  /* Remove solid color — use same gradient or transparent */
+  background: transparent; /* or the same gradient if you want a custom version */
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #ba2525; /* text visible on dark/gradient bg */
+}
+
+.about-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about-box {
+  background: rgba(240, 238, 238, 0.642); /* semi-transparent box */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 2rem;
+  flex: 1 1 250px;
+  max-width: 300px;
+  text-align: center;
+  color: #000000; /* text color white for contrast */
+  backdrop-filter: blur(8px); /* frosted glass effect */
+}
+
+.about-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.about-box p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
