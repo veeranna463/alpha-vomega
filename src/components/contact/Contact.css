@@ -5,7 +5,7 @@
   margin: 0 auto;
   padding: 80px 20px;
   text-align: center;
-  color: #333;
+  color: #e7dcdc;
 }
 
 .contact h2 {
@@ -17,7 +17,7 @@
 .contact p {
   font-size: 18px;
   margin-bottom: 40px;
-  color: #f1dcdc; /* Softer paragraph text */
+  color: #110e0e; /* Softer paragraph text */
 }
 
 .contact-info {
@@ -32,7 +32,7 @@
   flex: 1 1 200px;
   padding: 20px;
   border-radius: 8px;
-  background: #f7f7f7; /* Light box background */
+  background: #e2d7d7; /* Light box background */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
@@ -42,7 +42,7 @@
 }
 
 .info-box a {
-  color: #333;
+  color: #1f1818;
   text-decoration: none;
 }
 
