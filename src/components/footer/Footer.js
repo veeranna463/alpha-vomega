@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Footer.css';
 import { FaInstagram, FaLinkedin, FaTwitter, FaFacebook } from 'react-icons/fa';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser'; // ✅ Modern EmailJS version
 
 function Footer() {
   const [email, setEmail] = useState('');
@@ -10,10 +10,10 @@ function Footer() {
     e.preventDefault();
 
     emailjs.send(
-      'YOUR_SERVICE_ID',
-      'YOUR_TEMPLATE_ID',
+      'YOUR_SERVICE_ID',     // Replace with your EmailJS Service ID
+      'YOUR_TEMPLATE_ID',    // Replace with your EmailJS Template ID
       { user_email: email },
-      'YOUR_USER_ID'
+      'YOUR_PUBLIC_KEY'      // Replace with your EmailJS Public Key
     ).then(
       (result) => {
         alert('Your request has been sent!');
@@ -41,12 +41,18 @@ function Footer() {
         <div className="footer-socials">
           <h3>Follow Us</h3>
           <div className="social-icons">
-           {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-<a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-<a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-<a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a> */}
-
-
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+              <FaInstagram />
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+              <FaLinkedin />
+            </a>
+            <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+              <FaTwitter />
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+              <FaFacebook />
+            </a>
           </div>
         </div>
       </div>
